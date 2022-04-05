@@ -1,6 +1,6 @@
 # AIR MAX SHOES
 
-The live website link of this project: [Air Max Shoes](https://eloquent-biscotti-73feea.netlify.app/).
+The live website link of this project: [Air Max Shoes](https://air-max-shoes.netlify.app/).
 
 ## Available Scripts
 
