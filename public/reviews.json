@@ -1,0 +1,38 @@
+[
+    {
+      "id": 1,
+      "name": "Leanne Graham",
+      "review": "Bret",
+      "rating": 3.5
+    },
+    {
+      "id": 2,
+      "name": "Ervin Howell",
+      "review": "Bret",
+      "rating": 4
+    },
+    {
+      "id": 3,
+      "name": "Clementine Bauch",
+      "review": "Bret",
+      "rating": 3.5
+    },
+    {
+      "id": 4,
+      "name": "Petricia Lebsack",
+      "review": "Bret",
+      "rating": 4
+    },
+    {
+      "id": 5,
+      "name": "Chelsey Dietrich",
+      "review": "Bret",
+      "rating": 5
+    },
+    {
+      "id": 6,
+      "name": "Dennis Scheulist",
+      "review": "Bret",
+      "rating": "3.5"
+    }
+]
