@@ -2,6 +2,11 @@
     border: 1px solid #95A0A7;
     border-radius: 8px;
     padding: 8px;
-    margin-top: 21px;
-    width: 571px;
+    margin-top: 22px;
+    width: 471px;
+    display: flex;
+}
+
+#all-review img{
+    width: 250px;
 }

@@ -4,15 +4,15 @@ import Review from '../Review/Review';
 
 const Reviews = () => {
     const [reviews, setReviews] = useReviews();
-console.log(reviews);
+
     return (
-        <div>
+        <div className='grid grid-cols-2 gap-1'>
            {
                reviews.map(review => <Review
                     key = {review.id}
                     review = {review}
                ></Review>)
-           }
+            }   
         </div>
     );
 };
