@@ -1,12 +1,18 @@
 import React from 'react';
-import useShowReviews from '../../hooks/useShowReviews';
+import useReviews from '../../hooks/useReviews';
+import Review from '../Review/Review';
 
 const Reviews = () => {
-    const [reviews, setReviews] = useShowReviews([]);
-
+    const [reviews, setReviews] = useReviews();
+console.log(reviews);
     return (
         <div>
-            <h2>This is reviews: {reviews.length}</h2>
+           {
+               reviews.map(review => <Review
+                    key = {review.id}
+                    review = {review}
+               ></Review>)
+           }
         </div>
     );
 };

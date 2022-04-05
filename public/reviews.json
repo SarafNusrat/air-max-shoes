@@ -1,38 +1,44 @@
 [
     {
       "id": 1,
+      "img": "images/people1.jpg",
       "name": "Leanne Graham",
-      "review": "Bret",
+      "review": "Falling apart after 2 months of using. Won't spend this much again on this.",
       "rating": 3.5
     },
     {
       "id": 2,
+      "img": "images/people2.jpg",
       "name": "Ervin Howell",
-      "review": "Bret",
+      "review": "Great shoe, comfortable to wear. But kind of hard to put on.",
       "rating": 4
     },
     {
       "id": 3,
+      "img": "images/people3.jpg",
       "name": "Clementine Bauch",
-      "review": "Bret",
-      "rating": 3.5
+      "review": "Vey stylish and my go to shoe for any event.",
+      "rating": 5
     },
     {
       "id": 4,
+      "img": "images/people4.jpg",
       "name": "Petricia Lebsack",
-      "review": "Bret",
+      "review": "Nice shoe. Expect more designs in future.",
       "rating": 4
     },
     {
       "id": 5,
+      "img": "images/people5.jpg",
       "name": "Chelsey Dietrich",
-      "review": "Bret",
+      "review": "Super comfortable and easy to wear show. Will definitley buy next time.",
       "rating": 5
     },
     {
       "id": 6,
+      "img": "images/people6.jpg",
       "name": "Dennis Scheulist",
-      "review": "Bret",
+      "review": "The heel is significantly higher than the toe.",
       "rating": "3.5"
     }
 ]
