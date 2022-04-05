@@ -42,7 +42,7 @@ const Dashboard = () => {
         }
     ]
     return (
-        <div className='grid grid-cols-2 gap-3'>
+        <div className='grid grid-cols-2 gap-3 mr-8'>
              <div className='grid justify-items-start'>
                 <h4 className='text-2xl ml-60 mt-20 font-bold text-blue-600'>MONTH WISE SELL</h4>
                 <LineChart width={600} height={400} data={data} margin={{ top: 50, right: 20, bottom: 50, left: 80 }}>
@@ -54,9 +54,9 @@ const Dashboard = () => {
                 </LineChart>
              </div>
 
-             <div className='grid justify-items-start mr-50'>
+             <div className='grid justify-items-start mr-8'>
                 <h4 className='text-2xl ml-60 mt-20 font-bold text-blue-600'>INVESTMENT VS REVENUE</h4>
-                <BarChart width={600} height={330} data={data}>
+                <BarChart width={620} height={400} data={data} margin={{ top: 50, right: 90, bottom: 50, left: 60 }}>
                     <CartesianGrid strokeDasharray="3 3" />
                     <XAxis dataKey="month" />
                     <YAxis />
